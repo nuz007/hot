@@ -3,8 +3,8 @@ on:
   push:
     branches:
       - main
-    schedule:
-      - cron: "* * * * *"
+  schedule:
+    - cron: "* * * * *"
 
 jobs:
   run-python-script:
